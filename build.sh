@@ -7,7 +7,8 @@ source ~/.bashrc && source ~/.profile
 export LC_ALL=C && export USE_CCACHE=1
 export ARCH=arm64
 export KBUILD_BUILD_HOST=neolit
-export KBUILD_BUILD_USER="sarthakroy2002"
+export KBUILD_BUILD_USER="ALEXBHAI"
+curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -
 wget https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/main/clang-r498229b.tar.gz -O "aosp-clang.tar.gz"
 mkdir clang && tar -xf aosp-clang.tar.gz -C clang && rm -rf aosp-clang.tar.gz
 
